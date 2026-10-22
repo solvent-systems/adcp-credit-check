@@ -4,7 +4,7 @@ A pre-trade credit check for AI agents buying ads over [AdCP](https://github.com
 
 AI buying agents can now find ad sellers and place orders in seconds. Getting invoiced terms still takes a person filling in a credit application, often for days. AdCP leaves that step to each seller, and no seller can see what a buyer's agents have already been given by the others. This repo shows the check a seller could call instead: is this agent allowed to commit its company, and how much does the company already owe elsewhere?
 
-It's a simulation. The sellers are mocks, the AdCP messages follow the real schemas (released 3.2 and the open 3.3 PRs), and the fields AdCP doesn't have yet are marked as proposed. Built by [Solvent](https://solvent.credit).
+It's a simulation. The sellers are mocks, the AdCP messages follow the real schemas (released 3.2 and the open 3.3 PRs), and the fields AdCP doesn't have yet are marked as proposed. Built by [Solvent](https://solvent.systems).
 
 ```
 pip install -e .
@@ -142,4 +142,4 @@ salesagent has no plug-in point for a commercial policy, so either hook would ne
 
 ## Feedback
 
-Issues and pull requests are welcome, especially from people running AdCP seller or buyer agents: what your credit desk actually checks, and where this flow is wrong. Contact: hello@solvent.credit.
+Issues and pull requests are welcome, especially from people running AdCP seller or buyer agents: what your credit desk actually checks, and where this flow is wrong. Contact: hello@solvent.systems.
